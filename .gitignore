@@ -1,0 +1,16 @@
+# Sensitive data - never commit
+secret.key
+baseline.json
+secrets/
+encrypted/
+logs/
+
+# Environment / credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
